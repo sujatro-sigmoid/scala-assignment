@@ -8,7 +8,7 @@ class players(var year: Int,
 object players {
 
   def main(args: Array[String]): Unit = {
-    var playerList = Array(
+    val playerList = Array(
       new players(2010, "Abc", "India", 30, 2000, 101),
       new players(2011, "Bcd", "India", 31, 3000, 77),
       new players(2012, "Cde", "Pakistan", 32, 4000, 88),
