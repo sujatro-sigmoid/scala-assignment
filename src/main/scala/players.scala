@@ -4,7 +4,6 @@ class players(var year: Int,
               var matches: Int,
               var runs: Int,
               var wickets: Int)
-
 object players {
 
   def main(args: Array[String]): Unit = {
